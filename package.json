@@ -1,0 +1,28 @@
+{
+  "name": "project-euler",
+  "version": "1.0.0",
+  "description": "This project will have all the solution of project euler problems.",
+  "main": "index.js",
+  "repository": "https://github.com/shubham441996/project-euler.git",
+  "author": "Shubham Paliwal",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "husky": "^3.1.0",
+    "lint-staged": "^9.5.0",
+    "prettier": "^1.19.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "linters": {
+      "*.{js,json,md,yml,ts,tsx}": [
+        "prettier --write",
+        "git add"
+      ]
+    }
+  }
+}

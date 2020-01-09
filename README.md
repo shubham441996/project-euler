@@ -2,7 +2,7 @@
 
 ## This Project have following rules.
 
-1. I have to complete at lease one question on the daily basis.
+1. I have to complete at least one question on the daily basis.
 2. If you skip any question do it on the next day.
 3. Follow Rule 1 and Rule 2 😀.
 

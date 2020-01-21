@@ -9,7 +9,7 @@
       "request": "launch",
       "name": "Launch Program",
       "skipFiles": ["<node_internals>/**"],
-      "program": "${workspaceFolder}/src/january/large-sum.js",
+      "program": "${workspaceFolder}/src/january/power-digit-sum.js",
       "outFiles": ["${workspaceFolder}/**/*.js"]
     }
   ]
